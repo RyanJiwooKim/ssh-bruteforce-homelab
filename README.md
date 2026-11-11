@@ -23,7 +23,8 @@ A Kali attacker VM ran a dictionary brute force against SSH on an Ubuntu Server 
 
 **Tools:** VirtualBox, nmap, NetExec (`nxc`), lnav, OpenSSH, UFW, fail2ban, Bash, cron.
 
-![Lab network settings](screenshots/01-network.png)
+![Lab network settings](screenshots/01-network-kali.png)
+![Lab network settings](screenshots/01-network-ubuntu.png)
 
 ---
 
@@ -80,7 +81,7 @@ I investigated `/var/log/auth.log` on the target, scoping the search to the inci
 
 **Impact assessment:** `testuser` had no `sudo` rights and belonged to no privileged group, so the breach was contained to one low-privilege account. Had the attacker cracked an admin account instead, the result would have been full server compromise — the reason even "unimportant" accounts with weak passwords are dangerous.
 
-![Live detection in lnav](03-lnav-spike.png)
+![Live detection in lnav](screenshots/03-lnav-spike.png)
 
 Evidence was hashed with `sha256sum` after collection as a basic chain-of-custody step.
 
@@ -132,6 +133,9 @@ Two defenses fired:
 This is **defense in depth**: even if the password had been guessable, the firewall and fail2ban would have stopped the attacker. A final `nmap` scan confirmed exposure was unchanged at the network layer (SSH still reachable from the one allowed host) — the hardening worked at the authentication and host layer, not by closing ports.
 
 ![fail2ban ban + password refused](screenshots/06-verification.png)
+![fail2ban ban + password refused](screenshots/06-verification2.png)
+![fail2ban ban + password refused](screenshots/06-verification3.png)
+![fail2ban ban + password refused](screenshots/06-verification4.png)
 
 ---
 

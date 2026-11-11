@@ -1,0 +1,84 @@
+2026-11-05T23:01:49.985776+00:00 ubuntuproj1 sshd-session[1920]: Accepted password for vboxuser from 10.10.10.20 port 39990 ssh2
+2026-11-05T23:02:16.369660+00:00 ubuntuproj1 sshd-session[1976]: Received disconnect from 10.10.10.20 port 39990:11: disconnected by user
+2026-11-05T23:02:16.372590+00:00 ubuntuproj1 sshd-session[1976]: Disconnected from user vboxuser 10.10.10.20 port 39990
+2026-11-05T23:30:36.367782+00:00 ubuntuproj1 sshd-session[2061]: Accepted password for vboxuser from 10.10.10.20 port 49162 ssh2
+2026-11-05T23:34:04.528944+00:00 ubuntuproj1 sshd-session[2118]: Received disconnect from 10.10.10.20 port 49162:11: disconnected by user
+2026-11-05T23:34:04.531813+00:00 ubuntuproj1 sshd-session[2118]: Disconnected from user vboxuser 10.10.10.20 port 49162
+2026-11-05T23:56:01.700519+00:00 ubuntuproj1 sshd-session[2915]: Connection closed by 10.10.10.20 port 37081
+2026-11-05T23:56:01.713388+00:00 ubuntuproj1 sshd-session[2916]: banner exchange: Connection from 10.10.10.20 port 45538: could not read protocol version
+2026-11-05T23:56:01.713843+00:00 ubuntuproj1 sshd-session[2917]: banner exchange: Connection from 10.10.10.20 port 45552: could not read protocol version
+2026-11-05T23:56:01.726486+00:00 ubuntuproj1 sshd-session[2918]: Unable to negotiate with 10.10.10.20 port 45554: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group-exchange-sha256 [preauth]
+2026-11-05T23:56:01.738311+00:00 ubuntuproj1 sshd-session[2920]: Unable to negotiate with 10.10.10.20 port 45568: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group-exchange-sha256 [preauth]
+2026-11-05T23:56:01.751303+00:00 ubuntuproj1 sshd-session[2922]: Unable to negotiate with 10.10.10.20 port 45580: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group-exchange-sha256 [preauth]
+2026-11-05T23:56:01.763838+00:00 ubuntuproj1 sshd-session[2924]: Unable to negotiate with 10.10.10.20 port 45594: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group-exchange-sha256 [preauth]
+2026-11-05T23:56:01.775368+00:00 ubuntuproj1 sshd-session[2926]: Unable to negotiate with 10.10.10.20 port 45600: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group-exchange-sha256 [preauth]
+2026-11-05T23:56:01.786215+00:00 ubuntuproj1 sshd-session[2928]: Unable to negotiate with 10.10.10.20 port 45604: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group-exchange-sha256 [preauth]
+2026-11-06T19:12:59.930228+00:00 ubuntuproj1 sshd-session[1786]: Accepted password for vboxuser from 10.10.10.20 port 59438 ssh2
+2026-11-06T20:15:18.420443+00:00 ubuntuproj1 sshd-session[1842]: Received disconnect from 10.10.10.20 port 59438:11: disconnected by user
+2026-11-06T20:15:18.421461+00:00 ubuntuproj1 sshd-session[1842]: Disconnected from user vboxuser 10.10.10.20 port 59438
+2026-11-06T20:15:26.591275+00:00 ubuntuproj1 sshd-session[11735]: Accepted password for vboxuser from 10.10.10.20 port 49826 ssh2
+2026-11-06T20:28:27.809413+00:00 ubuntuproj1 sshd-session[11822]: Received disconnect from 10.10.10.20 port 49826:11: disconnected by user
+2026-11-06T20:28:27.810573+00:00 ubuntuproj1 sshd-session[11822]: Disconnected from user vboxuser 10.10.10.20 port 49826
+2026-11-06T20:28:48.149254+00:00 ubuntuproj1 sshd-session[13019]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.20  user=testuser
+2026-11-06T20:28:50.136170+00:00 ubuntuproj1 sshd-session[13019]: Failed password for testuser from 10.10.10.20 port 59022 ssh2
+2026-11-06T20:28:51.345606+00:00 ubuntuproj1 sshd-session[13022]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.20  user=testuser
+2026-11-06T20:28:53.498180+00:00 ubuntuproj1 sshd-session[13022]: Failed password for testuser from 10.10.10.20 port 59030 ssh2
+2026-11-06T20:28:54.543741+00:00 ubuntuproj1 sshd-session[13025]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.20  user=testuser
+2026-11-06T20:28:57.032503+00:00 ubuntuproj1 sshd-session[13025]: Failed password for testuser from 10.10.10.20 port 59044 ssh2
+2026-11-06T20:28:57.736906+00:00 ubuntuproj1 sshd-session[13028]: Accepted password for testuser from 10.10.10.20 port 37072 ssh2
+2026-11-06T20:28:57.738468+00:00 ubuntuproj1 sshd-session[13028]: pam_unix(sshd:session): session opened for user testuser(uid=1007) by testuser(uid=0)
+2026-11-06T20:28:58.475840+00:00 ubuntuproj1 sshd-session[13022]: Connection closed by authenticating user testuser 10.10.10.20 port 59030 [preauth]
+2026-11-06T20:28:58.511623+00:00 ubuntuproj1 sshd-session[13019]: Connection closed by authenticating user testuser 10.10.10.20 port 59022 [preauth]
+2026-11-06T20:28:58.521882+00:00 ubuntuproj1 sshd-session[13025]: Connection closed by authenticating user testuser 10.10.10.20 port 59044 [preauth]
+2026-11-06T20:28:58.530598+00:00 ubuntuproj1 sshd-session[13017]: Connection closed by 10.10.10.20 port 59006 [preauth]
+2026-11-06T20:28:58.531397+00:00 ubuntuproj1 sshd[995]: srclimit_penalise: 10.10.10.20/32: activating ipv4 penalty of 16 seconds for penalty: connections without attempting authentication
+2026-11-06T20:28:58.539228+00:00 ubuntuproj1 sshd-session[13107]: Connection closed by 10.10.10.20 port 37072
+2026-11-06T20:28:58.540360+00:00 ubuntuproj1 sshd-session[13028]: pam_unix(sshd:session): session closed for user testuser
+2026-11-06T20:29:47.253027+00:00 ubuntuproj1 sshd-session[13132]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.20  user=testuser
+2026-11-06T20:29:49.433380+00:00 ubuntuproj1 sshd-session[13132]: Failed password for testuser from 10.10.10.20 port 57232 ssh2
+2026-11-06T20:29:50.454329+00:00 ubuntuproj1 sshd-session[13135]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.20  user=testuser
+2026-11-06T20:29:52.512376+00:00 ubuntuproj1 sshd-session[13135]: Failed password for testuser from 10.10.10.20 port 57240 ssh2
+2026-11-06T20:29:53.637723+00:00 ubuntuproj1 sshd-session[13138]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.20  user=testuser
+2026-11-06T20:29:55.798048+00:00 ubuntuproj1 sshd-session[13138]: Failed password for testuser from 10.10.10.20 port 57252 ssh2
+2026-11-06T20:29:56.878184+00:00 ubuntuproj1 sshd-session[13141]: Accepted password for testuser from 10.10.10.20 port 57280 ssh2
+2026-11-06T20:29:56.880916+00:00 ubuntuproj1 sshd-session[13141]: pam_unix(sshd:session): session opened for user testuser(uid=1007) by testuser(uid=0)
+2026-11-06T20:29:57.318824+00:00 ubuntuproj1 sshd-session[13138]: Connection closed by authenticating user testuser 10.10.10.20 port 57252 [preauth]
+2026-11-06T20:29:57.426512+00:00 ubuntuproj1 sshd-session[13211]: Connection closed by 10.10.10.20 port 57280
+2026-11-06T20:29:57.428058+00:00 ubuntuproj1 sshd-session[13130]: Connection closed by 10.10.10.20 port 57222 [preauth]
+2026-11-06T20:29:57.428228+00:00 ubuntuproj1 sshd-session[13132]: Connection closed by authenticating user testuser 10.10.10.20 port 57232 [preauth]
+2026-11-06T20:29:57.428360+00:00 ubuntuproj1 sshd-session[13141]: pam_unix(sshd:session): session closed for user testuser
+2026-11-06T20:29:57.433184+00:00 ubuntuproj1 sshd-session[13135]: Connection closed by authenticating user testuser 10.10.10.20 port 57240 [preauth]
+2026-11-10T20:55:21.420228+00:00 ubuntuproj1 sshd-session[1550]: Invalid user vboxser from 10.10.10.20 port 44688
+2026-11-10T20:55:26.827062+00:00 ubuntuproj1 sshd-session[1550]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.20 
+2026-11-10T20:55:28.456067+00:00 ubuntuproj1 sshd-session[1550]: Failed password for invalid user vboxser from 10.10.10.20 port 44688 ssh2
+2026-11-10T20:55:38.339897+00:00 ubuntuproj1 sshd-session[1550]: Failed password for invalid user vboxser from 10.10.10.20 port 44688 ssh2
+2026-11-10T20:55:45.275252+00:00 ubuntuproj1 sshd-session[1550]: Failed password for invalid user vboxser from 10.10.10.20 port 44688 ssh2
+2026-11-10T20:55:45.283680+00:00 ubuntuproj1 sshd-session[1550]: Connection closed by invalid user vboxser 10.10.10.20 port 44688 [preauth]
+2026-11-10T20:55:45.284786+00:00 ubuntuproj1 sshd-session[1550]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.20 
+2026-11-10T20:55:52.037773+00:00 ubuntuproj1 sshd-session[1552]: Accepted password for vboxuser from 10.10.10.20 port 52196 ssh2
+2026-11-10T20:55:58.644835+00:00 ubuntuproj1 sshd-session[1608]: Received disconnect from 10.10.10.20 port 52196:11: disconnected by user
+2026-11-10T20:55:58.647216+00:00 ubuntuproj1 sshd-session[1608]: Disconnected from user vboxuser 10.10.10.20 port 52196
+2026-11-10T21:23:28.916031+00:00 ubuntuproj1 sshd-session[2246]: Connection closed by 10.10.10.20 port 33607
+2026-11-10T21:23:28.928617+00:00 ubuntuproj1 sshd-session[2248]: banner exchange: Connection from 10.10.10.20 port 50668: could not read protocol version
+2026-11-10T21:23:28.928992+00:00 ubuntuproj1 sshd-session[2247]: banner exchange: Connection from 10.10.10.20 port 50660: could not read protocol version
+2026-11-10T21:23:28.944542+00:00 ubuntuproj1 sshd-session[2249]: Unable to negotiate with 10.10.10.20 port 50672: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group-exchange-sha256 [preauth]
+2026-11-10T21:23:28.957555+00:00 ubuntuproj1 sshd-session[2251]: Unable to negotiate with 10.10.10.20 port 50686: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group-exchange-sha256 [preauth]
+2026-11-10T21:23:28.967605+00:00 ubuntuproj1 sshd-session[2253]: Unable to negotiate with 10.10.10.20 port 50688: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group-exchange-sha256 [preauth]
+2026-11-10T21:23:28.981536+00:00 ubuntuproj1 sshd-session[2255]: Unable to negotiate with 10.10.10.20 port 50702: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group-exchange-sha256 [preauth]
+2026-11-10T21:23:28.993463+00:00 ubuntuproj1 sshd-session[2257]: Unable to negotiate with 10.10.10.20 port 50706: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group-exchange-sha256 [preauth]
+2026-11-10T21:23:29.005027+00:00 ubuntuproj1 sshd-session[2259]: Unable to negotiate with 10.10.10.20 port 50708: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group-exchange-sha256 [preauth]
+2026-11-10T21:27:13.436503+00:00 ubuntuproj1 sshd-session[2383]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.20  user=testuser
+2026-11-10T21:27:14.900668+00:00 ubuntuproj1 sshd-session[2383]: Failed password for testuser from 10.10.10.20 port 54994 ssh2
+2026-11-10T21:27:15.057762+00:00 ubuntuproj1 sshd-session[2390]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.20  user=testuser
+2026-11-10T21:27:17.653824+00:00 ubuntuproj1 sshd-session[2390]: Failed password for testuser from 10.10.10.20 port 55010 ssh2
+2026-11-10T21:27:18.345890+00:00 ubuntuproj1 sshd-session[2401]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.20  user=testuser
+2026-11-10T21:27:20.693819+00:00 ubuntuproj1 sshd-session[2401]: Failed password for testuser from 10.10.10.20 port 36538 ssh2
+2026-11-10T21:27:21.584977+00:00 ubuntuproj1 sshd-session[2413]: Accepted password for testuser from 10.10.10.20 port 36546 ssh2
+2026-11-10T21:27:21.585822+00:00 ubuntuproj1 sshd-session[2413]: pam_unix(sshd:session): session opened for user testuser(uid=1007) by testuser(uid=0)
+2026-11-10T21:27:22.080534+00:00 ubuntuproj1 sshd-session[2401]: Connection closed by authenticating user testuser 10.10.10.20 port 36538 [preauth]
+2026-11-10T21:27:22.082068+00:00 ubuntuproj1 sshd-session[2390]: Connection closed by authenticating user testuser 10.10.10.20 port 55010 [preauth]
+2026-11-10T21:27:22.132915+00:00 ubuntuproj1 sshd-session[2381]: Connection closed by 10.10.10.20 port 54984 [preauth]
+2026-11-10T21:27:22.152361+00:00 ubuntuproj1 sshd-session[2383]: Connection closed by authenticating user testuser 10.10.10.20 port 54994 [preauth]
+2026-11-10T21:27:22.155178+00:00 ubuntuproj1 sshd[977]: srclimit_penalise: 10.10.10.20/32: activating ipv4 penalty of 16 seconds for penalty: failed authentication
+2026-11-10T21:27:22.164866+00:00 ubuntuproj1 sshd-session[2496]: Connection closed by 10.10.10.20 port 36546
+2026-11-10T21:27:22.165043+00:00 ubuntuproj1 sshd-session[2413]: pam_unix(sshd:session): session closed for user testuser

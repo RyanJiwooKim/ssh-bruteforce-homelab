@@ -1,0 +1,5 @@
+vboxuser UID=1000
+analyst2 UID=1002
+analyst1 UID=1001
+analyst3 UID=1003
+testuser UID=1007

@@ -1,0 +1,28 @@
+[*] First time use detected
+[*] Creating home directory structure
+[*] Creating missing folder logs
+[*] Creating missing folder modules
+[*] Creating missing folder workspaces
+[*] Creating missing folder obfuscated_scripts
+[*] Creating missing folder screenshots
+[*] Creating missing folder logs/sam
+[*] Creating missing folder logs/lsa
+[*] Creating missing folder logs/ntds
+[*] Creating missing folder logs/dpapi
+[*] Creating default workspace
+[*] Initializing SSH protocol database
+[*] Initializing VNC protocol database
+[*] Initializing WMI protocol database
+[*] Initializing FTP protocol database
+[*] Initializing SMB protocol database
+[*] Initializing NFS protocol database
+[*] Initializing WINRM protocol database
+[*] Initializing RDP protocol database
+[*] Initializing MSSQL protocol database
+[*] Initializing LDAP protocol database
+[*] Copying default configuration file
+SSH                      10.10.10.10     22     10.10.10.10      [*] SSH-2.0-OpenSSH_10.2p1 Ubuntu-2ubuntu3.8
+SSH                      10.10.10.10     22     10.10.10.10      [-] testuser:password
+SSH                      10.10.10.10     22     10.10.10.10      [-] testuser:123456
+SSH                      10.10.10.10     22     10.10.10.10      [-] testuser:letmein
+SSH                      10.10.10.10     22     10.10.10.10      [+] testuser:summer2024  Linux - Shell access!

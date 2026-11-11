@@ -1,0 +1,3 @@
+maxauthtries 6
+permitrootlogin prohibit-password
+passwordauthentication yes

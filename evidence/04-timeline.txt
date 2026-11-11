@@ -1,0 +1,6 @@
+FIRST:
+2026-11-06T20:28:50.136170+00:00 ubuntuproj1 sshd-session[13019]: Failed password for testuser from 10.10.10.20 port 59022 ssh2
+SUCCESS:
+2026-11-06T20:28:57.736906+00:00 ubuntuproj1 sshd-session[13028]: Accepted password for testuser from 10.10.10.20 port 37072 ssh2
+2026-11-06T20:29:56.878184+00:00 ubuntuproj1 sshd-session[13141]: Accepted password for testuser from 10.10.10.20 port 57280 ssh2
+2026-11-10T21:27:21.584977+00:00 ubuntuproj1 sshd-session[2413]: Accepted password for testuser from 10.10.10.20 port 36546 ssh2

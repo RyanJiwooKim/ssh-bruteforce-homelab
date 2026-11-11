@@ -1,0 +1,2 @@
+uid=1007(testuser) gid=1007(testuser) groups=1007(testuser),100(users)
+User testuser is not allowed to run sudo on ubuntuproj1.

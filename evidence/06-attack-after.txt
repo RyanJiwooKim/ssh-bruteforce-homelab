@@ -1,0 +1,9 @@
+[13:53:21] INFO     Socket info: host=10.10.10.10,          connection.py:174
+                    hostname=10.10.10.10, kerberos=False,                    
+                    ipv6=False, link-local ipv6=False                        
+SSH                      10.10.10.10     22     10.10.10.10      [*] SSH-2.0-OpenSSH_10.2p1 Ubuntu-2ubuntu3.8
+SSH                      10.10.10.10     22     10.10.10.10      [-] testuser:password
+SSH                      10.10.10.10     22     10.10.10.10      [-] testuser:123456
+SSH                      10.10.10.10     22     10.10.10.10      [-] testuser:letmein
+SSH                      10.10.10.10     22     10.10.10.10      [-] testuser:summer2024
+SSH                      10.10.10.10     22     10.10.10.10      [-] testuser:qwerty

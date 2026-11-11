@@ -1,6 +1,6 @@
 # SSH Brute-Force Attack: Detection & Hardening Home Lab
 
-A hands-on security lab built in VirtualBox to practice the full lifecycle of a common real-world attack: simulate an SSH credential brute force against a Linux server, detect it through log analysis, harden the server so the attack fails, and verify the fixes by re-running it.
+This is a hands-on security lab built in VirtualBox to practice the full lifecycle of a common real-world attack. Here, I simulated an SSH credential brute force against a Linux server, detected it through log analysis, hardened the server so the second attack failed, and verified the fixes by re-running it.
 
 > **Lab-only project.** All activity took place between two VMs I own, on an isolated private network. Never run these techniques against systems you do not own.
 

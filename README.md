@@ -80,7 +80,7 @@ I investigated `/var/log/auth.log` on the target, scoping the search to the inci
 
 **Impact assessment:** `testuser` had no `sudo` rights and belonged to no privileged group, so the breach was contained to one low-privilege account. Had the attacker cracked an admin account instead, the result would have been full server compromise — the reason even "unimportant" accounts with weak passwords are dangerous.
 
-![Live detection in lnav](<img width="1345" height="952" alt="03-lnav-spike" src="https://github.com/user-attachments/assets/6104c29f-9c03-468d-b0ce-64095ade4f7a" />)
+![Live detection in lnav](03-lnav-spike.png)
 
 Evidence was hashed with `sha256sum` after collection as a basic chain-of-custody step.
 
